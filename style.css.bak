@@ -1,0 +1,36 @@
+.mini-projects {
+    background-color: #f4f4f9;
+}
+
+.mini-project-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mini-project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.mini-project-card:hover {
+    background-color: #e63946;
+    color: white;
+    transform: translateY(-10px);
+}
+
+.mini-project-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.mini-project-card p {
+    font-size: 16px;
+    color: #555;
+}
